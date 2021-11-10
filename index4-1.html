@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 50%;
+            height: 300px;
+            border: 1px solid black;
+            position: relative;
+        }
+        .content {
+            padding-left: 10px;
+        }
+        .saparate::after{
+            content: "";
+            display: block;
+            position: absolute;
+            border-left: 1px solid red;
+            height: 15px;
+            right: 598px;
+            top: 70px;
+        }
+        a {
+            margin-right: 8px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container" >
+      <div class="content" >
+        <h2>ví dụ về các trạng thái của hyperlink</h2>
+        
+        <a class="link1  " href="#">Link 1 </a>
+         <a class="link2  " href="#">Link 2 </a>
+         <a class=" link3 saparate" href="#">Link 3 </a>
+         <a class="link4 " href="#">Link 4 </a>
+        <br>
+     <h3>Guide:</h3>
+     <ul>
+         <li>a:link - a normal, univisited link</li>
+         <li>a:visited - a link user has visited</li>
+         <li>a:hover - a link when the user mouses over it</li>
+         <li>a:actice - a link the moment it is clicked</li>
+     </ul>
+
+      </div>
+
+    </div>
+</body>
+</html>
